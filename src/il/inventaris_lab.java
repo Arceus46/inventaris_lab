@@ -1,18 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package il;
+public class inventaris_lab {//Class Inventaris Lab
+        String id_peminjaman, id_user, id_barang, id_admin, tanggal_pinjam; //Atribut
+        int denda; //Atribut
+    public inventaris_lab(){ // Constructor 
+        this.id_peminjaman = "P002"; //Menyimpan data id_peminjaman
+        this.id_user = "U002"; //Menyimpan data id_user
+        this.id_barang = "B002"; //Menyimpan data id_barang
+        this.id_admin = "A002"; //Menyimpan data id_admin
+        this.tanggal_pinjam = "24 Oktober 2006"; //Menyimpan data tanggal_pinjam
+        this.denda = 150000; //Menyimpan data denda
+    } //Daerah Constructor
+    public static void main(String[] args) { //Method Main untuk output
+    inventaris_lab lu = new inventaris_lab();//membuat object baru untuk memanggil constructor
+        System.out.println("ID Peminjaman           : " + lu.id_peminjaman);//memanggil constructor id_peminjaman
+        System.out.println("ID User                 : " + lu.id_user); //memanggil constructor id_user
+        System.out.println("ID Barang               : "+lu.id_barang);//memanggil constructor id_barang
+        System.out.println("ID Admin                : "+lu.id_admin); //memanggil constructor id_admin
+        System.out.println("Tanggal Peminjaman      : "+lu.tanggal_pinjam); //memanggil constructor tanggal_pinjam
+        System.out.println("Denda Jika Terlambat    : Rp."+lu.denda); //memanggil constructor denda
+}
 
-/**
- *
- * @author Shadow
- */
-public class inventaris_lab {
-    String id_peminjaman, id_user, id_barang, id_admin, tanggal_pinjam;
-    int denda;
-    void datauser(String user){
+    
+        void datauser(String user){
         this.id_user = user;
     }    
     void dataadmin(String atmin){
@@ -48,4 +57,5 @@ public class inventaris_lab {
     String tanggal(){
         return tanggal_pinjam;
     }
+//    
 }

@@ -11,7 +11,7 @@ package il;
  */
 public class il {
     public static void main(String[] args) {
-    inventaris_lab li = new inventaris_lab(); 
+    inventaris_lab li = new inventaris_lab();
      //ketika akan menggunakan method dari class Mahasiswa maka harus menyertakan nama object
      li.datapinjam("P001");
      li.datauser("U031");
@@ -25,7 +25,7 @@ public class il {
      System.out.println("Id User            : "+ li.user()); 
      System.out.println("Id Admin           : "+ li.admin()); 
      System.out.println("Id Barang          : "+ li.barang()); 
-     System.out.println("Denda              : "+ li.dendaa()); 
+     System.out.println("Denda              : Rp."+ li.dendaa()); 
      System.out.println("Tanggal Peminjaman : "+ li.tanggal());
 }
 }
