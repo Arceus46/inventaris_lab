@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package il;
+package il.BAB1;
 
 /**
  *
  * @author Shadow
  */
-public class il {
+public class Main {
     public static void main(String[] args) {
     inventaris_lab li = new inventaris_lab();
      //ketika akan menggunakan method dari class Mahasiswa maka harus menyertakan nama object

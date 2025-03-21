@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package il;
+package il.BAB3;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import javax.swing.JOptionPane;
@@ -23,7 +23,6 @@ public class GUI_Barang extends javax.swing.JFrame{
         jTextArea1.setEnabled(false);
          this.id = jTextField1.getText();
         this.nama = jTextField2.getText();
-        barang brg = new barang(stok, id, nama, tgl);
     }
 
     /**
