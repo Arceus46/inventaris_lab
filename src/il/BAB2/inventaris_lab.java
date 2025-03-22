@@ -1,6 +1,6 @@
 package il.BAB2;
 public class inventaris_lab {//Class Inventaris Lab
-        String id_peminjaman, id_user, id_barang, id_admin, tanggal_pinjam; //Atribut
+        public String id_peminjaman, id_user, id_barang, id_admin, tanggal_pinjam; //Atribut
         int denda; //Atribut
     public inventaris_lab(){ // Constructor 
         this.id_peminjaman = "P002"; //Menyimpan data id_peminjaman
